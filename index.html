@@ -16,6 +16,10 @@
                     colors: {
                         clifford: '#da373d',
                         // 'bg-primary-color': ''
+                    },
+                    fontFamily: {
+                        'primary-font': 'EB Garamond',
+                        'secondary-font': 'Poppins',
                     }
                 }
             }
@@ -78,13 +82,13 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div class="hero banner"
+        <div class="hero"
             style="background-image: url(images/banner.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
-                <div class="max-w-md ">
-                    <h1 class="mb-5 text-4xl font-extrabold">We Provide Effective Legal Solutions</h1>
-                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="max-w-md">
+                    <h1 class="mx-auto mb-5 text-7xl font-extrabold font-primary-font">We Provide Effective <br> Legal Solutions</h1>
+                    <p class="mb-5 max-w-2xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <input type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs" />
                     <button class="btn bg-yellow-700 text-white">Search</button>
                 </div>
@@ -93,22 +97,83 @@
     </header>
     <main class="lg:w-9/12 mx-auto my-24">
         <section>
+            <!-- legal practice section -->
             <h3 class="text-4xl font-extrabold text-center mb-6">The Legal Practice Area</h3>
             <p class="mx-auto text-center max-w-2xl mb-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                <div class="card bg-base-100 shadow-xl">
-                    <figure class="px-10 pt-10">
-                      <img src="/images/business.png" alt="Order" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center ">
-                      <h2 class="card-title">Business Law</h2>
-                      <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <div class="card-actions">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-16">
+                <!-- first card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/business.png" alt="Business Law" class="mt-6" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-extrabold mx-auto">Business Law</h2>
+                      <p class="text-center mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <button class="btn btn-circle bg-yellow-700 text-white mx-auto">
                         <i class="fa-solid fa-arrow-right"></i>
-                      </div>
+                      </button>
                     </div>
-                  </div>
+                </div>
+                <!-- second card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/criminal.png" alt="Criminal Law" class="mt-6" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-extrabold mx-auto">Criminal Law</h2>
+                      <p class="text-center mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <button class="btn btn-circle bg-yellow-700 text-white mx-auto">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/child.png" alt="Child Law" class="mt-6" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-extrabold mx-auto">Child Support</h2>
+                      <p class="text-center mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <button class="btn btn-circle bg-yellow-700 text-white mx-auto">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                </div>
             </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-16">
+                <!-- forth card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/education.png" alt="Business Law" class="mt-6" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-extrabold mx-auto">Education Law</h2>
+                      <p class="text-center mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <button class="btn btn-circle bg-yellow-700 text-white mx-auto">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                </div>
+                <!-- fifth card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/divorce.png" alt="Criminal Law" class="mt-6" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-extrabold mx-auto">Divorce Law</h2>
+                      <p class="text-center mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <button class="btn btn-circle bg-yellow-700 text-white mx-auto">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                </div>
+                <!-- sixth card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tax.png" alt="Child Law" class="mt-6" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl font-extrabold mx-auto">Tax Support</h2>
+                      <p class="text-center mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <button class="btn btn-circle bg-yellow-700 text-white mx-auto">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3 class="mb-6 text-4xl font-extrabold text-center">What Our Client Say</h3>
+            <p class="mb-16 text-center mx-">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
         </section>
     </main>
     <footer></footer>
